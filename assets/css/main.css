@@ -29,7 +29,7 @@ main {
   justify-content: space-between;
 }
 .city-name {
-  color: rgba(255, 0, 107, 1);
+  color: white;
   font-family: sans-serif;
   font-size: 35px;
   font-weight: 600;
@@ -44,7 +44,7 @@ main {
   color: white;
 }
 .temperature-of-city {
-  color: rgba(255, 200, 1, 1);
+  color: white;
   font-family: sans-serif;
   font-size: 80px;
   font-weight: 700;
@@ -65,12 +65,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.max-temperature {
-  color: red;
-}
-.lowest-temperature{
-  color: blue;
 }
 .weather-details-title {
   position: absolute;

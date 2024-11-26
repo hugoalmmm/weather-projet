@@ -14,8 +14,8 @@ function useApi() {
             let windSpeed = 0
             result.hourly.wind_speed_10m.forEach(element => windSpeed += element)
             windSpeed = Math.round(windSpeed / result.hourly.wind_speed_10m.length)
-            
-            document.querySelector('.temperature-of-city').textContent = `${result.elevation} ${result.current_units.temperature_2m}` 
+
+            document.querySelector('.temperature-of-city').textContent = `${Math.round(result.current.temperature_2m)} ${result.current_units.temperature_2m}` 
             document.querySelector('.max-temperature').textContent = Math.round(Math.max(...result.hourly.temperature_2m))
             document.querySelector('.lowest-temperature').textContent = Math.min(...result.hourly.temperature_2m) 
             document.querySelector('.feels-like').textContent = `${result.elevation} ${result.current_units.temperature_2m}`
