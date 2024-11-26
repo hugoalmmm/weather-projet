@@ -1,68 +1,76 @@
 <!DOCTYPE html>
 <html lang="fr-FR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Weather</title>
 
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
-
-<body>
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <main>
-        <div class="head-box">
-            <div class="left-content-of-head-box">
-                <h1 class="city-name">New York</h1>
-                <div class="settings-of-city">
-                    <p class="temperature-of-city">61°</p>
-                    <p class="time-visual">Overcast</p>
-                </div>
-            </div>
-            <div class="right-content-of-head-box">
-                <p class="max-and-lowest-temperature-of-day">Sun <span class="max-temperature"></span>63° 57°</p>
-                <p class="air-quality">Air quality : 20 - Good</p>
-            </div>
+      <div class="head-box">
+        <div class="left-content-of-head-box">
+          <h1 class="city-name">New York</h1>
+          <div class="settings-of-city">
+            <p class="temperature-of-city">61°</p>
+            <p class="time-visual">Overcast</p>
+          </div>
         </div>
-        <div class="bottom-page-content">
-            <div class="weather-details-box">
-                <div class="weather-details-box">
-                    <p>Feels like</p>
-                    <p>57°</p>
-                </div>
-                <div class="weather-details-box">
-                    <p>ENE wind</p>
-                    <p>13 mi/h</p>
-                </div>
-                <div class="weather-details-box">
-                    <p>Humidity</p> 
-                    <p>82%</p>
-                </div>
-                <div class="weather-details-box">
-                    <p>Uv</p>
-                    <p>0</p>
-                </div>
-                <div class="weather-details-box">
-                    <p>Visibility</p>
-                    <p>7 mi</p>
-                </div>
-                <div class="weather-details-box">
-                    <p>Pressure</p>
-                    <p>1022 hPa</p>
-                </div>
-            </div>
-            <div class="weather-forecast-box">
-                <p>Graphique API</p>
-            </div>
+        <div class="right-content-of-head-box">
+          <p class="max-and-lowest-temperature-of-day">
+            Sun <span class="max-temperature"></span>63° 57°
+          </p>
+          <p class="air-quality">Air quality : 20 - Good</p>
         </div>
+      </div>
+      <p class="weather-details-title">Weather details</p>
+      <p class="weather-forecast-title">5-day weather forecast</p>
+      <div class="bottom-page-content">
+        <div class="weather-details-box">
+          <div class="top-part-weather-box">
+            <div class="box-of-weather">
+              <p class="feel-like">Feels like</p>
+              <p class="feel-like-number">57°</p>
+            </div>
+            <div class="box-of-weather">
+              <p class="wind">ENE wind</p>
+              <p class="wind-number">13 mi/h</p>
+            </div>
+            <div class="box-of-weather">
+              <p class="humidity">Humidity</p>
+              <p class="humidity-number">82%</p>
+            </div>
+          </div>
+          <div class="bottom-part-weather-box">
+            <div class="box-of-weather">
+              <p class="uv">Uv</p>
+              <p class="uv-number">0</p>
+            </div>
+            <div class="box-of-weather">
+              <p class="visibility">Visibility</p>
+              <p class="visibility-number">7 mi</p>
+            </div>
+            <div class="box-of-weather">
+              <p class="pressure">Pressure</p>
+              <p class="pressure-number">1022 hPa</p>
+            </div>
+          </div>
+        </div>
+        <div class="weather-forecast-box">
+        </div>
+      </div>
     </main>
     <p class="a"></p>
-    <footer>
-
-    </footer>
-</body>
-<script src="assets/js/main.js"></script>
-
+    <footer></footer>
+  </body>
+  <script src="assets/js/main.js"></script>
 </html>
