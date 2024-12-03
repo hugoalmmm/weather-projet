@@ -9,7 +9,16 @@ body {
 header {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin: 16px 0px;
+}
+
+.divCity {
+border: 1px solid gray;
+height: 40px;
+margin-right: 350px;
+width: 150px;
 }
 
 input {
@@ -36,6 +45,7 @@ main {
   width: 100%;
   height: 100vh;
 }
+
 .head-box {
   margin-left: auto;
   margin-right: auto;
@@ -267,6 +277,7 @@ main {
   border-radius: 8px;
 }
 
+
 @media screen and (max-width: 450px) {
 
   body {
@@ -298,5 +309,17 @@ main {
 
   .city-name {
     font-size: 43px;
+  }
+
+  .bottom-part-weather-box {
+    width: 100%;
+  }
+
+  .box-weather {
+    width: 40%;
+  }
+
+  .weather-forecast-box {
+    width: 50%;
   }
 }
